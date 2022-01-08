@@ -1,1 +1,1 @@
-console.log($('#blue').index())
+$('#red').next().addClass('hh')

@@ -59,13 +59,15 @@ window.$ = function(selectorOrArray){
     next(){
         const index = this.index()
         const arr = this.parent().children().print()
-        return arr[index+1]
+        const newArr = [arr[index+1]]
+        return $(newArr)
     },
     //查寻哥哥
     prev(){
         const index = this.index()
         const arr = this.parent().children().print()
-        return arr[index-1]
+        const newArr = [arr[index-1]]
+        return $(newArr)
     },
     //添加className
     addClass(className){

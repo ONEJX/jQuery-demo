@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.js"],"names":["$","next","addClass"],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAAA,EAAE,MAAF,EAAUC,IAAV,GAAiBC,QAAjB,CAA0B,IAA1B","file":"main.e04f1ef4.map","sourceRoot":"..\\src","sourcesContent":["$('#red').next().addClass('hh')"]}
