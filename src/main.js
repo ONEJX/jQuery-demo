@@ -1,1 +1,1 @@
-$('#red').next().addClass('hh')
+$('.test1').find('#blue').prev().print()
